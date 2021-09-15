@@ -12,5 +12,4 @@
 
 ***
 
-![alt text][image]
-[image]: (https://github.com/Odrakes1992/bookmark_challenge/blob/main/Domain%20Model%20-%20Website%20example%20.png)
+<img width="925" alt="Domain Model - Website example " src="https://user-images.githubusercontent.com/54316167/133464675-558c8a70-e31a-406a-b350-744b22b47b53.png">
