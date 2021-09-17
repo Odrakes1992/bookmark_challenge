@@ -1,6 +1,11 @@
-<h1>Add a new bookmark to your list, enter the URL below</h1>
+<h1>Add a new bookmark to your list, enter the URL and title below.</h1>
 
 <form action="/bookmarks" method="post">
+  <label for="url">
+  URL
   <input type="text" name="url"/>
+  <label for="title">
+  TITLE
+  <input type="text" name="title"/>
   <input type="submit" value="Submit"/>
 </form>

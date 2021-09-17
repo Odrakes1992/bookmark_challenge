@@ -21,7 +21,7 @@ class BookmarkManager < Sinatra::Base
   end 
 
   post '/bookmarks' do
-    Bookmark.create(url: params[:url])
+    Bookmark.create(url: params[:url], title: params[:title].capitalize)
     # The value that is being store is params[:url], the method bove is being passed a hash
     # equivalent to .create(url => wwww.example.com)
     redirect '/bookmarks'
