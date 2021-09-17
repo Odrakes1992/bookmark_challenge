@@ -1,6 +1,15 @@
 require 'bookmark'
 
 describe Bookmark do 
+  
+  describe '.create' do 
+    it 'creates a new bookmark' do 
+      Bookmark.create(url: 'http://www.example.org')
+      expect(Bookmark.all).to include "http://www.example.org"
+    end
+  end
+
+  
   describe '.all' do
     it 'returns all bookmarks' do 
       connection = PG.connect(dbname: 'bookmark_manager_test')
